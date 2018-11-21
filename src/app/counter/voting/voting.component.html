@@ -1,0 +1,53 @@
+<form novalidate #f="ngForm">
+  <div style="margin: 2em">
+    <button mat-raised-button color="primary" (click)="upVote()">
+      Přidej hlas
+    </button>
+
+    <div style="margin-right: 1em; margin-bottom: 1em"></div>
+
+    <button mat-raised-button color="warn" (click)="downVote()">
+      Odeber hlas
+    </button>
+  </div>
+
+  <br />
+  <br />
+  Celkem počet hlasů: <span id="totalVotes">{{ totalVotes }}</span>
+
+  <br />
+  <br />
+  <br />
+  <mat-form-field>
+    <input
+      matInput
+      placeholder="Pozdrav"
+      #greetingCtrl="ngModel"
+      name="greeting"
+      [(ngModel)]="greeting"
+    />
+  </mat-form-field>
+
+  <div *ngIf="greeting == 'Angular'">Greeting je Angular</div>
+
+  <button mat-raised-button color="warn" (click)="sendGreeting(greeting)">
+    Pošli pozdrav
+  </button>
+
+  <ul>
+    <li *ngFor="let student of students">
+      {{ student.firstname }} {{ student.surname }}
+      {{ student?.detail1?.detail2 }}
+
+      <ul>
+        <li *ngFor="let course of student.courses">{{ course.name }}</li>
+      </ul>
+    </li>
+  </ul>
+
+  <div>
+    <button mat-raised-button (click)="onSubmit(f)" color="primary">
+      Odeslat formulář
+    </button>
+  </div>
+</form>

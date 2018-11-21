@@ -1,27 +1,12 @@
-# Ang1
+##Doporučená literatura - Javascript
+JS OOP
+https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404/ref=as_li_ss_tl?ie=UTF8&qid=1450209311&sr=8-1&keywords=object+oriented+javascript&linkCode=sl1&tag=nczonline-20&linkId=e0f6e60219cd225f63fc7cb649635e8a
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
+ES6
+https://www.amazon.com/Understanding-ECMAScript-Definitive-JavaScript-Developers/dp/1593277571/ref=as_li_ss_tl?ie=UTF8&qid=1541265138&sr=8-1&keywords=understanding+ecmascript+6&linkCode=sl1&tag=nczonline-20&linkId=8a9e74234b8da40dd4e163ef26bb34f1&language=en_US
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##spuštění
+npm install
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ng serve
